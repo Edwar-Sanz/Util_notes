@@ -1,0 +1,47 @@
+{   
+    
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.accessibilitySupport": "off",
+    "files.autoSave": "afterDelay",
+    "editor.tokenColorCustomizations": {
+        "[graygraygray]": {
+            "strings": "#0e880e",
+            "comments": "#4e4d4dc1",
+            "variables": {"foreground": "#834f13", "fontStyle": "bold "} ,
+            "numbers": "#000000",
+            "functions": {"foreground": "#a831a6", "fontStyle":"bold"} ,
+            "keywords": {"foreground": "#14137d", "fontStyle": "bold"},
+            "types": "#570000"                    
+    }
+    
+    },
+    "workbench.colorTheme": "graygraygray",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fill",
+    "explorer.confirmDelete": false,
+    "editor.minimap.maxColumn": 50,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorCustomizations": {
+        
+        "editor.foldBackground": "#c5c5c5",
+        "editor.background": "#dedede",
+        "panel.background": "#ffffff",
+        "editor.selectionBackground": "#8989897b",
+        "editorLineNumber.activeForeground": "#110065",
+        "editor.lineHighlightBackground": "#9b9b9b27"
+        
+    },
+    "editor.fontSize": 15,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontFamily": "Lucida Console",
+    "editor.fontWeight": "600",
+    "editor.letterSpacing": 0.009,
+    "editor.lineHeight": 25,
+    
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+    
+}

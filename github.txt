@@ -1,0 +1,61 @@
+-crear repositorio:
+git init 
+
+-agregar todos los cambios:
+git add .
+
+-guardar cambios:
+git commit -m "descripcion"
+
+-enviar a la rama main:
+git branch -M main
+
+-agregar repositorio remoto:
+git remote add origin git@github.com:usuario/repositorio.com.git
+
+-enviar datos al repositorio remoto:(main o nombreRama)
+git push -u origin main
+
+-traer datos
+git pull origin main (main o nombreRama)
+
+
+//-----------------------------
+-clonar repositorio
+git clone nombreRepositorio
+
+-nombre repositorio remoto
+git remote
+
+-ver repositorios remotos
+git remote -v
+
+-ver todas las ramas incluidos repositorios remotos
+git branch -a
+
+-eliminar repositorio remoto (main o nombreRama)
+git remote rm origin
+
+-eliminar rama repositorio remoto
+git push origin -d nombreRama
+
+
+//-------fetch-----------
+
+git fech:
+verifica los cambios y despues decidir
+si se hace merge
+
+//-------pull request-----
+1- bifurcar el proyecto (fork)
+2- hacer commit en el fork
+3- desde github contribuir (contribute)
+4- open pull request
+5- comparing changes
+
+
+//-------issues-------
+
+
+
+

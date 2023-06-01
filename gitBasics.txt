@@ -1,0 +1,105 @@
+//--------------configuraciones--------------------
+
+-configurar el nombre de git
+git config --global user.name "nombre entre comillas"
+
+- configurar el correo de git
+git config --global user.email "direccion de correo" 
+
+-rama main por defecto:
+git config --global init.defaultBranch main
+
+-asociar editor (vsc)
+git config --global core.editor "code --wait"
+
+
+
+//---------------lo básico-------------------
+
+-crear repositorio:
+git init
+
+-estado del proyecto
+git status
+
+-agregar cambio:
+git add nombreArchivo
+
+-remover cambio;
+git rm --cached nombreArchivo
+
+-guardar cambios:
+git commit -m "descripcion"
+
+
+
+//-------------staging ---------------------------
+
+-diferencia entre el staging y el repositorio
+git diff
+
+-ultima modificación
+git show nombreArchivo
+
+- ver contenido archivo
+cat nombreArchivo
+
+
+
+//-------------commits----------------------------
+
+-guardar cambios:
+git commit -m "descripcion"
+
+-revisar commits
+git log
+
+-revisar commits de forma concisa
+git log --oneline
+
+-revisar commits y la diferencia
+git log -p
+
+-ver cambios especificos
+git log --stat
+
+-cambiar descripcion ultimo commit
+git commit --amend
+
+-desacer el último commit
+git reset --soft HEAD~1
+
+-diferencia entre commits
+git diff oldCommit newCommit
+
+
+
+//---------------ramas----------------------------
+
+-crear una rama (estando en la rama padre)
+git branch nombreRama
+
+-ver ramas
+git branch
+
+-cambiar rama
+git checkout nombreRama
+
+-crear y cambiar en un solo comando (estando en la rama padre)
+git checkout -b nombreRama
+
+-cambiar nombre rama
+git branch -m oldName newName
+
+-cambiar nombre rama (estando en la rama a modificar)
+git branch -m newName
+
+-eliminar rama
+git branch -d nombreRama
+
+-fusionar ramas (estando en la rama que recibe los cambios)
+git merge nombreRama
+
+
+
+
