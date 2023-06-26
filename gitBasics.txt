@@ -28,15 +28,33 @@ git add nombreArchivo
 -remover cambio;
 git rm --cached nombreArchivo
 
+-restaurar cambio:
+git restore --staged nombreArchivo
+
 -guardar cambios:
 git commit -m "descripcion"
 
+-volver al commit para visualizar 
+git checkout "id commit"
 
+-cambiar a rama
+git checkout "rama"
+
+- regresar los cambios
+git reset --soft
+git reset --mixed 
+git reset --hard
 
 //-------------staging ---------------------------
 
+-restaurar archivo (antes de staged)
+git restore <file>
+
 -diferencia entre el staging y el repositorio
-git diff
+git diff 
+git diff --staged 
+git diff --cached
+git diff --color-words
 
 -ultima modificación
 git show nombreArchivo
@@ -75,6 +93,9 @@ git diff oldCommit newCommit
 
 
 //---------------ramas----------------------------
+
+-cambiar el nombre de la rama actual a "main"
+git branch -M main
 
 -crear una rama (estando en la rama padre)
 git branch nombreRama
