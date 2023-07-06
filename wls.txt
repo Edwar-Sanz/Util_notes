@@ -1,0 +1,6 @@
+wls
+
+wsl --list --verbose
+
+wsl --terminate <ID_del_proceso>
+
