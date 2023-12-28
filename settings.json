@@ -1,13 +1,12 @@
 {   
-    
     "workbench.iconTheme": "material-icon-theme",
     "editor.accessibilitySupport": "off",
     "files.autoSave": "afterDelay",
     "editor.tokenColorCustomizations": {
         "[graygraygray]": {
             "strings": "#0e880e",
-            "comments": "#4e4d4dc1",
-            "variables": {"foreground": "#834f13", "fontStyle": "bold "} ,
+            "comments": {"foreground": "#4e4d4dc1", "fontStyle":""},
+            "variables": {"foreground": "#834f13", "fontStyle": "bold"} ,
             "numbers": "#000000",
             "functions": {"foreground": "#a831a6", "fontStyle":"bold"} ,
             "keywords": {"foreground": "#14137d", "fontStyle": "bold"},
@@ -15,6 +14,9 @@
     }
     
     },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "workbench.editor.wrapTabs": true,
     "workbench.colorTheme": "graygraygray",
     "editor.minimap.showSlider": "always",
     "editor.minimap.size": "fill",
@@ -24,24 +26,36 @@
         "editor.formatOnType": true
     },
     "workbench.colorCustomizations": {
-        
+
+    
+
+
         "editor.foldBackground": "#c5c5c5",
-        "editor.background": "#dedede",
-        "panel.background": "#ffffff",
+        "editor.background": "#d4d4d4",
+        "panel.background": "#acacac",
         "editor.selectionBackground": "#8989897b",
         "editorLineNumber.activeForeground": "#110065",
         "editor.lineHighlightBackground": "#9b9b9b27"
         
     },
-    "editor.fontSize": 15,
+    "editor.fontFamily": "Consolas",
     "git.openRepositoryInParentFolders": "never",
-    "editor.fontFamily": "Lucida Console",
-    "editor.fontWeight": "600",
-    "editor.letterSpacing": 0.009,
-    "editor.lineHeight": 25,
-    
-    "[javascript]": {
+    "editor.fontWeight": "540",
+    "editor.letterSpacing": 0.09,
+    "editor.lineHeight": 24,
+    "php.validate.executablePath": "C://xampp//php//php.exe",
+    "git.autoRepositoryDetection": "subFolders",
+    "editor.accessibilityPageSize": 8,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "remote.SSH.remotePlatform": {
+        "192.241.155.109": "linux"
+    },
+    "editor.fontSize": 15,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": -1,
+    "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
-    
 }

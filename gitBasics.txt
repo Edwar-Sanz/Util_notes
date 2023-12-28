@@ -101,7 +101,7 @@ git branch -M main
 git branch nombreRama
 
 -ver ramas
-git branch
+git branch -a
 
 -cambiar rama
 git checkout nombreRama
